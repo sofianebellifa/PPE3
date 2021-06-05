@@ -6,7 +6,7 @@ require('header.php');
 
 
     <article class = "index">
-        <h2 class="champ">GEFOR</h2> <!-- dddd -->
+        <h2 class="champ">GEFOR</h2> <!-- dddd aa -->
         <h3 class="champ">Avec l'application Gefor, visualisez vos dossiers d'admissions en temps réel. </h3>
 
 
