@@ -18,7 +18,7 @@ require("redirection_admin.php");
 if(isset($_GET['idcandidat']) && !empty($_GET['idcandidat'])){
     // On nettoie l'id envoyé
     $id = securite($_GET['idcandidat']);
-$query1=$db->prepare("SELECT * FROM formation;");
+$query1=$db->prepare("SELECT * FROM formation");
 $query1->execute();
 $result_for=$query1->fetchall();
 
