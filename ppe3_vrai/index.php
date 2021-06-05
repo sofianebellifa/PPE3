@@ -7,7 +7,7 @@ require('header.php');
 
     <article class = "index">
         <h2>GEFOR</h2>
-        <h3>Avec l'application Gefor, visualisez vos dossiers d'admissions en temps réel. </h3>
+        <h3 class= "champ" >Avec l'application Gefor, visualisez vos dossiers d'admissions en temps réel. </h3>
 
 
             <form action="sql_session.php" method="post">
@@ -28,7 +28,7 @@ require('header.php');
             </div>
             </form>
 
-        <h2><a href="inscription_accueil.php">créer un compte</a></h2> 
+        <h2 class="champ"><a href="inscription_accueil.php">créer un compte</a></h2> 
     </article>
 <footer></footer>
 
