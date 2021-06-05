@@ -6,8 +6,8 @@ require('header.php');
 
 
     <article class = "index">
-        <h2>GEFOR</h2>
-        <h3 class= "champ" >Avec l'application Gefor, visualisez vos dossiers d'admissions en temps réel. </h3>
+        <h2 class="champ">GEFOR</h2> <!-- dddd aa -->
+        <h3 class="champ">Avec l'application Gefor, visualisez vos dossiers d'admissions en temps réel. </h3>
 
 
             <form action="sql_session.php" method="post">
