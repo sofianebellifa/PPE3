@@ -7,8 +7,8 @@ if($_SESSION['cursus'] != 0){
 
 require_once('../bdd/connect.php');
 
-
-
+/* test 1
+ */
 $query=$db->prepare("SELECT * FROM situation_pro");
 $query->execute();
 $result_sp=$query->fetchall();
@@ -139,7 +139,7 @@ require_once('../header.php');
         <button><a href="logout.php">DECONNEXION</a></button>
     </div>
 
-    <form action="formulaire_inscription.php" method="post" class='champ'> <!-- ajout de la classe champ -->
+    <form action="formulaire_inscription.php" method="post">
         <fieldset>
             <div >
             <?php if(isset($error)){echo "<strong style='color: red'>".$error."</strong>";}else{echo "<br>";}?>
