@@ -139,7 +139,7 @@ require_once('../header.php');
         <button><a href="logout.php">DECONNEXION</a></button>
     </div>
 
-    <form action="formulaire_inscription.php" method="post">
+    <form action="formulaire_inscription.php" method="post" class='champ'> <!-- ajout de la classe champ -->
         <fieldset>
             <div >
             <?php if(isset($error)){echo "<strong style='color: red'>".$error."</strong>";}else{echo "<br>";}?>
